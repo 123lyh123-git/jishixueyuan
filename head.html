@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link media="screen and (min-width:1920px)" rel="stylesheet" href="css/style1600.css">
+    <link media="screen and (min-width:1680px) and (max-width:1920px)" rel="stylesheet" href="css/style1400.css">
+    <link media="screen and (min-width:1440px) and (max-width:1680px)" rel="stylesheet" href="css/style1200.css">
+    <link media="screen and (min-width:1024px) and (max-width:1440px)" rel="stylesheet" href="css/style980.css">
+    <link media="screen and (max-width:1024px)" rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="pc_header">
+            <a href="/" class="logo"></a>
+            <div class="nav">
+                <ul class="nav_list">
+                    <li> <a href="" class="on">首页</a></li>
+                    <li> <a href="profile.html">学校概况</a></li>
+                    <li> <a href="">人才培养</a></li>
+                    <li> <a href="">招生就业</a></li>
+                    <li> <a href="">学校发展</a>
+                        <div class="nav_subitem">
+                            <a href="#">学生热线</a>
+                            <a href="#">共青团之家</a>
+                            <a href="#">心灵之窗</a>
+                            <a href="#">继续教育</a>
+                        </div>
+                    </li>
+                    <li> <a href="">社会服务</a></li>
+                    <li> <a href="">党群组织</a></li>
+                    <li> <a href="department.html">内设机构</a></li>
+                    <li> <a href="">家校之窗</a></li>
+                </ul>
+                <span class="search"></span>
+                <span class="line"></span>
+                <a href="#" class="en">ENGLISH</a>
+            </div>
+
+        </div>
+        <div class="search_slide">
+            <input type="text" placeholder="请输入关键词进行搜索">
+            <img src="img/close.png" class="close" alt="">
+        </div>
+    </div>
+    <div class="mobile_header">
+        <a href="#"><img src="img/logo1.png" class="mb_logo" alt=""></a>
+        <div class="close-btn">
+            <hr />
+            <hr />
+        </div>
+        <img class="show-btn" src="img/menu.png" alt="" />
+        <div class="mb_menu">
+        </div>
+    </div>
+    <div class="empty"></div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script>
+        function changeMobileHeader() {
+            $('.mobile_header .show-btn').show();
+            $('.mobile_header .close-btn').hide();
+
+            $('.mobile_header .show-btn').click(function () {
+                // showbtn 隐藏,closebtn 显示,menu left:0vw
+                $('.mobile_header .show-btn').hide();
+                $('.mobile_header .close-btn').show();
+                setTimeout(function () {
+                    $('.mobile_header .mb_menu').animate({ left: '0vw' })
+                }, 300)
+            })
+
+            $('.mobile_header .close-btn').click(function () {
+                // showbtn 显示,closebtn 隐藏,menu left:-100vw
+                $('.mobile_header .show-btn').show();
+                $('.mobile_header .close-btn').hide();
+                setTimeout(function () {
+                    $('.mobile_header .mb_menu').animate({ left: '-100vw' })
+                }, 300)
+            })
+        }
+
+        function changeHeader() {
+            if (window.innerWidth <= 1024) {
+                // 如果小于1200 pc头部隐藏 mobile头部显示
+                $(".header").hide();
+                $(".mobile_header").show();
+                changeMobileHeader();
+            } else {
+                $(".header").show();
+                $(".mobile_header").hide();
+            }
+        }
+        changeHeader();
+        $(window).resize(function () {
+            changeHeader();
+        });
+        $(".search").click(function () {
+            $(".search_slide").css("top", "0px");
+        })
+        $(".close").click(function () {
+            $(".search_slide").css("top", "-77px");
+        })
+        // 二级菜单
+        $(".nav_list li").hover(function () {
+            var index = $(this).index();
+            var height = $(this).children(".nav_subitem").find("a").length * 55;
+            $(this).children(".nav_subitem").css('height', height + 'px');
+        }, function () {
+            $(this).children(".nav_subitem").css('height', '0px')
+        })
+    </script>
+</body>
+
+</html>

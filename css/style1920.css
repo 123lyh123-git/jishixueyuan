@@ -1,0 +1,66 @@
+   /* 适应pc屏幕 大于1680、小于1920px */
+
+   .container1311 {
+       margin: 0px auto;
+       width: 1311px;
+       font-size: 16px;
+   }
+
+   .container1374 {
+       margin: 0px auto;
+       width: 1374px;
+       font-size: 16px;
+   }
+
+   /* banner */
+
+   .banner .title {
+       font-size: 42px;
+   }
+
+   .banner .sub_title {
+       font-size: 24px;
+   }
+
+   /* about us */
+
+   .about_right .about_main {
+       padding: 15% 15% 10% 10%;
+   }
+
+   /* construction */
+
+   .construction {
+       padding-top: 40px;
+   }
+
+   .construction_main .sub_title {
+       margin-bottom: 30px;
+   }
+
+   /* news */
+
+   .news_img .img_box {
+       height: 400px;
+   }
+
+   .news_left .news_img .news_info {
+       top: 75%;
+   }
+
+   .news_main .news_right .item {
+       padding: 25px;
+       width: 37%;
+   }
+
+   .news_main .news_right .item .time {
+       margin-bottom: 4px;
+   }
+
+   .news_main .news_right .item .title {
+       margin-bottom: 8px;
+   }
+
+   .news_main .news_right .item .detail {
+       margin-bottom: 8px;
+   }

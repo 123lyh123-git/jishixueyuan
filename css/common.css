@@ -1,0 +1,1607 @@
+/* 学院简介开始 */
+
+.profile, .history, .honors {
+    padding-bottom: 50px;
+}
+
+.profile .profile_top {
+    position: relative;
+    width: 100%;
+    height: 425px;
+}
+
+.profile .profile_top {
+    width: 100%;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile .profile_top span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 36%;
+    height: 100%;
+    background-color: #5979bd;
+    z-index: -3;
+}
+
+.profile .profile_top .college {
+    display: flex;
+    width: 98%;
+    height: 374px;
+    background-color: #f7f7f8;
+}
+
+.profile .profile_top .college .college_img {
+    width: 44%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile .profile_top .college .college_box {
+    padding: 3%;
+    width: 56%;
+    font-size: 16px;
+}
+
+.profile .profile_top .college_box .title {
+    margin-bottom: 14px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.profile .profile_top .college_box .sub_title {
+    margin-bottom: 14px;
+    color: #787878;
+}
+
+.profile .profile_top .college_box .line {
+    margin-bottom: 10px;
+    width: 34px;
+    height: 3px;
+    background-color: #5979bd;
+}
+
+.profile .profile_top .college_box .info {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    color: #777777;
+    text-align: justify;
+}
+
+.profile .profile_center {
+    margin-top: 78px;
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .profile_center .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .profile_center .item strong {
+    margin-right: 15px;
+    font-family: DisneyEnglish-DemiBold!important;
+    font-size: 72px;
+    color: #5979bd;
+}
+
+.profile .profile_center .item .item_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.profile .profile_center .item .item_box .sub {
+    font-size: 16px;
+    color: #666666;
+}
+
+.profile .profile_center .item .item_box .sup {
+    font-size: 18px;
+    color: #434242;
+}
+
+.profile .profile_bottom {
+    margin-top: 82px;
+    padding: 6% 0 0 2%;
+    width: 98%;
+    height: 367px;
+    background: url(../img/profile2.jpg) no-repeat 50%/cover;
+    overflow: hidden;
+}
+
+.profile .profile_bottom .title {
+    margin-bottom: 19px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.profile .profile_bottom .sub_title {
+    width: 68%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+    text-align: justify;
+}
+
+/* 学院简介结束 */
+
+/* 发展历程开始 */
+
+.history {}
+
+.history_box {}
+
+.history_box .item {
+    display: flex;
+    width: 100%;
+    min-height: 0;
+}
+
+.history_box .history_left {
+    padding-right: 4%;
+    width: 20%;
+    height: 100%;
+    text-align: right;
+}
+
+.history_box .history_left .month {
+    margin-top: -6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.history_box .history_left .year {
+    font-size: 18px;
+    color: #999999;
+}
+
+.history_box .history_main {
+    position: relative;
+    width: 72%;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 1%;
+    border-left: 1px solid #e8eaec;
+}
+
+.history_box .history_main .history_info {
+    margin-top: -4px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.history_box .history_main::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -9px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 3px #5979bd;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.history_box .item:last-child .history_main::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: -15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/profile3.png) no-repeat;
+}
+
+/* 发展历程结束 */
+
+/* 学院荣誉开始 */
+
+.honors_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.honors_box .item {
+    margin-bottom: 3%;
+    width: 30%;
+    background-color: #f7f8f8;
+    border-bottom: 2px solid #f7f8f8;
+    transition: border-bottom 1s ease;
+}
+
+.honors_box .item:hover {
+    border-bottom: 2px solid #5979bd;
+}
+
+.honors_box .item:hover .title {
+    color: #5979bd;
+}
+
+.honors_box .item img {
+    display: block;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.honors_box .item .item_box {
+    padding: 6%;
+}
+
+.honors_box .item .title {
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.honors_box .item .info {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8b95a0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 学院荣誉结束 */
+
+/* 学生热线开始 */
+
+.hotline {}
+
+.hotline .hotline_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotline .item {
+    padding: 3% 3% 2% 3%;
+    margin-bottom: 2%;
+    width: 43%;
+    height: auto;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+}
+
+.hotline .item:hover {
+    box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.1);
+    border: solid 1px #5979bd;
+}
+
+.hotline .item:hover .title {
+    color: #5979bd;
+}
+
+.hotline .item:hover span.more {
+    color: #5979bd;
+}
+
+.hotline .item .title {
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hotline .item .info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8b95a0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hotline .item .item_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotline .item span.date {
+    font-size: 14px;
+    color: #999999;
+}
+
+.hotline .item span.date span {
+    font-size: 17px;
+    color: #898989;
+}
+
+.hotline .item span.more {
+    font-size: 18px;
+    color: #666666;
+}
+
+.hotline .item span.more::before {
+    content: "|";
+    color: #eeeeee;
+    margin-right: 23px;
+}
+
+.hotline .item span.more::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../img/lt.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left: 6px;
+    vertical-align: top;
+}
+
+/* 学生热线结束 */
+
+/* 文章详情开始 */
+
+.article .article_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 32px;
+    height: 72px;
+}
+
+.article .article_nav .back_list {
+    width: 147px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #5979bd;
+    border-radius: 19px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.article .article_nav .back_icon a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.article .article_nav .back_icon .left {
+    margin-right: 31px;
+    background: url(../img/left.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.article .article_nav .back_icon .right {
+    background: url(../img/right.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.article .article_nav .back_icon .left:hover {
+    background: url(../img/left1.png) no-repeat;
+}
+
+.article .article_nav .back_icon .right:hover {
+    background: url(../img/right1.png) no-repeat;
+}
+
+.article .article_title {
+    padding: 2% 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.article .article_title .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5979bd;
+}
+
+.article .article_title span {
+    font-size: 14px;
+    color: #8b95a0;
+}
+
+.article .article_title .date {
+    margin-right: 30px;
+}
+
+.article .article_title .date::before {
+    content: "";
+    display: inline-block;
+    margin-right: 11px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/time.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: text-bottom;
+}
+
+.article .article_title .link::before {
+    content: "";
+    display: inline-block;
+    margin-right: 11px;
+    width: 17px;
+    height: 16px;
+    background: url(../img/hotline.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: text-bottom;
+}
+
+.article .article_main {
+    padding: 2% 0;
+}
+
+.article .article_main img {
+    display: block;
+}
+
+/* 文章详情结束 */
+
+/* 专业院系 */
+
+.department_bg {
+    width: 100%;
+    background: url(../img/department_bg1.jpg) no-repeat 50%/cover;
+}
+
+.department .content {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 36px;
+    color: #333333;
+    text-align: center;
+}
+
+.department .department_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.department .department_box .item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    width: 48.5%;
+    height: 331px;
+    z-index: 1;
+}
+
+.department .department_box .item:nth-child(1):before, .department .department_box .item:nth-child(2):before, .department .department_box .item:nth-child(4):before, .department .department_box .item:nth-child(5):before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 331px;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: 10;
+}
+
+.department .item figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 15;
+}
+
+.department .item figure figcaption {
+    font-size: 28px;
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+.department .department_box .item:nth-child(1) {
+    background: url(../img/construction1.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item:nth-child(2) {
+    background: url(../img/construction2.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item:nth-child(3) {
+    background: url(../img/construction3.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item:nth-child(4) {
+    background: url(../img/construction4.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item:nth-child(5) {
+    background: url(../img/construction5.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item:nth-child(6) {
+    background: url(../img/construction6.jpg) no-repeat 50%/cover;
+}
+
+.department .department_box .item figure::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 30px rgb(255 255 255 / 20%);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
+
+.department .department_box .item:hover figure::before {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+/* 专业院系结束 */
+
+.mailbox {
+    width: 100%;
+    height: 100%;
+    background: #f3f6fb url(../img/contact_bg.jpg) repeat-x;
+}
+
+.mailbox .mailbox_top {
+    margin: 0px auto;
+    width: 85%;
+    height: 160px;
+    background: url(../img/mailbox_bg.png) no-repeat 50%/cover;
+}
+
+.mailbox .mailbox_main {
+    height: 600px;
+    background-color: #ffffff;
+    box-shadow: 2px 7px 13px 0px rgba(189, 203, 228, 0.09);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailbox .mailbox_main form {
+    width: 60%;
+}
+
+.mailbox .mailbox_main form ::placeholder {
+    color: #cbcfd6;
+}
+
+.mailbox .mailbox_main form input, .mailbox .mailbox_main form textarea, .mailbox .mailbox_main form button {
+    margin-bottom: 13px;
+    padding-left: 1%;
+    border-radius: 5px;
+    border: solid 1px #dddddd;
+}
+
+.mailbox .mailbox_main form input, .mailbox .mailbox_main form button {
+    height: 47px;
+    line-height: 47px;
+}
+
+.mailbox .mailbox_main form .form_name {
+    width: 99%;
+}
+
+.mailbox .mailbox_main form textarea {
+    padding-top: 1%;
+    width: 99%;
+    height: 177px;
+}
+
+.mailbox .mailbox_main .contact_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailbox .mailbox_main .form_contact {
+    width: 48%;
+}
+
+.mailbox .mailbox_main .form_code {
+    margin-right: 13px;
+    width: 24%;
+}
+
+.mailbox .mailbox_main .form_btn {
+    margin-top: 13px;
+    width: 100%;
+    background-color: #425cbb;
+    text-align: center;
+    color: #fff;
+}
+
+/* 人才培训开始 */
+
+.train_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 540px;
+}
+
+.train_banner .txt_box {
+    margin-left: 15%;
+    margin-top: -3%;
+}
+
+.train_banner .title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 46px;
+    color: #ff5754;
+}
+
+.train_banner .sub_title {
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+}
+
+.train .train_main {
+    margin-top: -78px;
+    padding: 4.5% 2% 2% 2%;
+    background-color: #ffffff;
+}
+
+.train .course {
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.train .course .item {
+    margin-bottom: 1.5%;
+    width: 31.5%;
+    height: 297px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+
+.train .course .item:hover .img_box img {
+    transform: scale(1.2);
+}
+
+.train .course .img_box {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.train .course .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.train .course .title {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+
+.train .course .info {
+    display: flex;
+    margin-top: 21px;
+    font-size: 14px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+}
+
+.train .course .info span {
+    margin-right: 3px;
+    font-size: 18px;
+    color: #ff6637;
+}
+
+.train .course .info a {
+    margin-left: 15px;
+    display: inline-block;
+    width: 82px;
+    height: 27px;
+    background-color: #0099ff;
+    border-radius: 3px;
+    color: #ffffff;
+    line-height: 27px;
+    text-align: center;
+}
+
+.train .course .info a:hover {
+    opacity: .8;
+}
+
+.train .course .enroll {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    width: 586px;
+    background: #d43837;
+    opacity: 0.9;
+    transition: all 1s;
+}
+
+.train .course .enroll_box {
+    padding: 4% 0;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.train .course .enroll_box .contact {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.train .course .enroll_main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.train .course .enroll_main .enroll_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.train .course .enroll_main .enroll_left img {
+    width: 110px;
+    height: 100px;
+    margin-bottom: 13px;
+}
+
+.train .course .enroll_main .enroll_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: MicrosoftYaHeiLight!important;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: .9;
+}
+
+.train .course .enroll_main span {
+    margin: 4px 0 19px 0;
+    font-family: ArialMT!important;
+    font-size: 36px;
+}
+
+.train .course .enroll_main a {
+    width: 141px;
+    height: 43px;
+    border-radius: 22px;
+    border: solid 1px #ffffff;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
+}
+
+.train_news, .enterprise_news {
+    margin-top: 36px;
+}
+
+.train_news .item_box, .enterprise_news .item_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.train_news .item, .enterprise_news .item {
+    position: relative;
+    margin-bottom: 18px;
+    width: 24%;
+    height: 210px;
+}
+
+.train_news .item:hover .img_box img, .enterprise_news .item:hover .img_box img {
+    transform: scale(1.2);
+}
+
+.train_more {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.train_news .item:hover .title, .enterprise_news .item:hover .title {
+    height: 29px;
+}
+
+.enterprise_more {
+    margin-top: 10px!important;
+    margin-bottom: 40px;
+}
+
+.swiper3 .p5 {
+    position: absolute;
+    bottom: 6%;
+    right: 4%;
+    color: #fff;
+    font-size: 18px;
+    opacity: .9;
+}
+
+.train_news .item .img_box, .enterprise_news .item .img_box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.train_news .item img, .enterprise_news .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s linear;
+}
+
+.train_news .title, .enterprise_news .title {
+    position: absolute;
+    bottom: 0;
+    padding: 0 2%;
+    width: 96%;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #fff;
+    background-color: #282c29;
+    opacity: 0.8;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.more .text {
+    position: relative;
+    display: block;
+    width: 164px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    border: solid 1px #cccccc;
+    color: #666666;
+    text-align: center;
+    transition: border, background 1s;
+}
+
+.more .text:hover {
+    background: #425cbb;
+    border: solid 1px #425cbb;
+    color: #fff;
+}
+
+.more .text span::after {
+    content: "";
+    display: inline-block;
+    margin-left: 4px;
+    width: 21px;
+    height: 5px;
+    background: url(../img/more.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.more .text:hover span::after {
+    background: url(../img/more1.png) no-repeat;
+}
+
+.overview {
+    width: 100%;
+    height: 540px;
+    background: #ecf3f9 url(../img/train1.jpg) no-repeat bottom;
+    background-size: auto;
+    overflow: hidden;
+}
+
+.overview .overview_box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.overview .overview_right {
+    width: 50%;
+}
+
+.overview .overview_right .title {
+    margin-top: 58px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.overview .overview_right .title::after {
+    content: "Training Overview";
+    font-family: ArialMT!important;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.overview .overview_right .subtitle {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.overview .overview_right .content {
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.overview .overview_right .info {
+    display: block;
+    margin-top: 48px;
+    width: 152px;
+    height: 52px;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+}
+
+.overview .overview_right .info:hover {
+    opacity: .8;
+}
+
+.train_contact {
+    width: 100%;
+    height: 240px;
+    background-color: #828da7;
+    overflow: hidden;
+}
+
+.train_contact .contact_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.train_contact .contact_main>img {
+    width: 316px;
+    height: 113px;
+}
+
+.train_contact p {
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+
+.train_contact p.title {
+    font-size: 24px;
+}
+
+.train_contact .code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.train_contact .code img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 人才培训开始 */
+
+/* 校企合作开始 */
+
+.enterprise_banner {
+    width: 100%;
+    height: 540px;
+}
+
+.enterprise_banner .txt_box .title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.enterprise_banner .txt_box {
+    position: relative;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+/* 学生发展 */
+
+.enterprise .enterprise_main {
+    margin-top: -100px;
+    padding: 0 3% 3% 3%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.enterprise .profile {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 79px; */
+    margin-top: 40px;
+}
+
+.swiper3 {
+    width: 100%;
+    height: 442px;
+    background-color: #f8ecb8;
+}
+
+.swiper3 .slide_title {
+    position: absolute;
+    bottom: 6%;
+    left: 4%;
+    color: #fff;
+}
+
+.swiper3 .p2 {
+    position: absolute;
+    bottom: 6%;
+    right: 4%;
+    color: #fff;
+    font-size: 18px;
+    opacity: .9;
+}
+
+.swiper3 .swiper-pagination-bullet {
+    margin-left: 15px;
+    background: #fff;
+}
+
+.swiper3 .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.enterprise .profile_banner {
+    width: 49%;
+}
+
+.enterprise .profile_box {
+    width: 49%;
+}
+
+.enterprise .profile_box .title {
+    margin-bottom: 18px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.enterprise .profile_box .title .subtitle {
+    display: inline-block;
+    font-family: ArialMT!important;
+    font-size: 24px;
+    color: #999999;
+    text-indent: 10px;
+    font-weight: normal;
+}
+
+/* .enterprise .profile_box .title::after {
+    content: "COLLEGE PROFILE";
+    margin-left: 13px;
+    font-family: ArialMT!important;
+    font-size: 18px;
+    color: #333333;
+} */
+
+.enterprise .profile_box span {
+    display: block;
+    margin-bottom: 25px;
+    width: 34px;
+    height: 3px;
+    background-color: #5979bd;
+}
+
+.enterprise .profile_box .content {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+    text-align: justify;
+}
+
+.enterprise .profile_box .num {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprise .profile_box .item {
+    width: 33%;
+    font-size: 18px;
+    color: #666666;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+}
+
+.enterprise .profile_box .item:first-child {
+    border-left: none;
+    text-align: left;
+}
+
+.enterprise .profile_box .item strong {
+    margin-right: 4px;
+    font-family: HelveticaExt-Normal!important;
+    font-size: 40px;
+    color: #333333;
+}
+
+.cooperation {
+    margin-top: 28px;
+}
+
+.cooperation .item_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.cooperation .item {
+    margin-bottom: 16px;
+    width: 24%;
+    height: 169px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.09);
+    border: solid 1px #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterprise>.contact {
+    display: flex;
+    padding: 5% 0;
+    width: 100%;
+    background: url(../img/enterprise2.jpg) no-repeat 50%/cover;
+    color: #ffffff;
+}
+
+.enterprise .contact .contact_left {
+    width: 202px;
+    height: 202px;
+    background-color: #201455;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterprise .contact .contact_left::before {
+    content: "我要合作";
+    display: block;
+    line-height: 60px;
+    width: 132px;
+    height: 119px;
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+
+.enterprise .contact_center {
+    margin-left: 8%;
+    margin-right: 15%;
+}
+
+.enterprise .contact_center .info {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.enterprise .contact_center .info:first-child {
+    margin-bottom: 6px;
+}
+
+.enterprise .contact_center .info:last-child {
+    margin-top: 39px;
+}
+
+.enterprise .contact_center .info:last-child span {
+    display: inline-block;
+    margin-left: 8px;
+    width: 51px;
+    height: 1px;
+    background-color: #ffffff;
+    vertical-align: super;
+}
+
+.enterprise .contact_center .phone {
+    margin-bottom: 12px;
+    font-family: ArialMT;
+    font-size: 55px;
+}
+
+.enterprise .code {
+    display: flex;
+    margin-right: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.enterprise .code img {
+    margin-bottom: 16px;
+    width: 129px;
+    height: 129px;
+}
+
+/* 校企结束 */
+
+/* 学生发展开始 */
+
+.profile_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_icon .item {
+    display: flex;
+    justify-content: start;
+}
+
+.profile_icon .item .item_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.profile_icon .item img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.student .profile_box .item {
+    border-left: none;
+}
+
+.student .profile_box span {
+    margin-bottom: 15px;
+}
+
+.student .profile_box .content {
+    margin-bottom: 20px;
+}
+
+.student .course .item .system {
+    margin-top: 2px;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.student .course .info {
+    margin-top: 6px;
+}
+
+.student .hotMajor_box {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 18px;
+    color: #666666;
+}
+
+.student .hotMajor_box .hot {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6637;
+}
+
+.student .hotMajor_box .major {
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.student .college_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.student .college_title .nav_box, .student .college_title .college_box {
+    display: flex;
+}
+
+.student .college_title .nav_box {
+    align-items: center;
+}
+
+
+.student .college_title .college_nav.college_active {
+    background-color: #0099ff;
+    color: #ffffff;
+}
+
+.student .college_title .college_nav.college_active::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.student .college_title a {
+    font-size: 18px;
+    color: #666666;
+}
+
+.student .course {
+    margin: 30px 0;
+}
+
+.student .contact {
+    background: none;
+}
+
+.student .course .enroll_box .contact {
+    display: flex;
+    justify-content: center;
+}
+
+.student .enterCollege {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.student .enterCollege .enterCollege_left {
+    width: 49%;
+}
+
+.student .enterCollege .left_box {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+}
+
+.student .enterCollege .left_box:hover img, .student .enterCollege .right_box:hover img {
+    transform: scale(1.2);
+}
+
+.student .enterCollege .left_box .title, .student .enterCollege .right_box .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.student .enterCollege .left_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.student .enterCollege .enterCollege_right {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.student .enterCollege .right_box {
+    position: relative;
+    margin-bottom: 3%;
+    width: 48%;
+    height: 197px;
+    overflow: hidden;
+}
+
+.student .enterCollege .right_box img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+    object-fit: cover;
+}
+
+.student .teacher_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student .teacher_box .teacher_item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.student .teacher_box .show_teacher {
+    width: 207px;
+    height: 414px;
+}
+
+.student .teacher_box .show_info {
+    width: 352px;
+    height: 388px;
+    background-color: #f4f1ec;
+    padding: 26px 41px 0 23px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.student .show_info .name span {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #fe7316;
+}
+
+.student .show_info .title {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.student .show_info .info {
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 学生发展结束 */
+
+/* 欢迎界面开始 */
+
+.welcome {
+    width: 100%;
+    height: 100%;
+    background: url(../img/welcome.jpg) no-repeat 50%/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .welcome_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .welcome_box .title {
+    margin-bottom: 27px;
+    font-weight: bold;
+    font-size: 55px;
+    color: #fffefe;
+}
+
+.welcome .welcome_box .subtitle {
+    margin-bottom: 37px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.welcome .welcome_box a {
+    margin-bottom: 31px;
+    padding: 0px 20px;
+    width: 498px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 22px 0px rgba(3, 133, 255, 0.24);
+    border-radius: 48px;
+    border: solid 1px rgba(0, 144, 255, 0.27);
+}
+
+.welcome .welcome_box a:nth-last-child(2) {
+    margin-bottom: 51px;
+}
+
+.welcome .welcome_box a.other {
+    display: block;
+    padding: 0;
+    width: 148px;
+    height: 51px;
+    border-radius: 26px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 51px;
+}
+
+.welcome .welcome_box a img:first-child {
+    margin-right: 37px;
+}
+
+.welcome .welcome_box a img:last-child {
+    width: 69px;
+    height: 69px;
+}
+
+.welcome .welcome_box a span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 欢迎界面结束 */

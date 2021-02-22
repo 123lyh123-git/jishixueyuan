@@ -1,0 +1,1661 @@
+    /* 适应手机屏幕 小于1024px */
+
+    .mb_container {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    body {
+        background: #ffffff!important;
+    }
+
+    /* 邮箱 */
+
+    .mailbox .mailbox_top {
+        width: 100vw;
+        height: 24vw;
+        background: url(../img/mailbox_bg1.png) no-repeat 50%/cover;
+    }
+
+    .mb_title {
+        padding-top: 4vw!important;
+    }
+
+    .gl_title {
+        font-size: 6vw;
+    }
+
+    .mailbox .mailbox_main form input, .mailbox .mailbox_main form button {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    .gl_subTitle {
+        margin-bottom: 2.5vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        color: #333333;
+    }
+
+    .mailbox .mailbox_main {
+        margin: -15px 15px 0 15px;
+        margin-top: -15px;
+        height: 100%;
+        padding: 11vw 0;
+        font-size: 4vw;
+    }
+
+    .mailbox .mailbox_main form {
+        width: 90%;
+    }
+
+    .mailbox .mailbox_main .contact_box {
+        display: block;
+    }
+
+    .mailbox .mailbox_main .form_contact {
+        width: 99%;
+    }
+
+    /* 学校概况 */
+
+    .profile_bg {
+        background: url(../img/profile_bg1.jpg) no-repeat 50%/cover!important;
+    }
+
+    .gl_banner {
+        height: 50vw;
+    }
+
+    .gl_position, .site_box {
+        display: none;
+    }
+
+    .txt_box {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%!important;
+    }
+
+    .txt_box .title, .txt_box .mb_banner_title {
+        font-size: 6vw!important;
+        font-weight: bold;
+    }
+
+    .txt_box .sub_title, .txt_box .mb_sub_title {
+        font-size: 3vw;
+        color: #fff;
+    }
+
+    .gl_navbar ul {
+        width: 100%;
+    }
+
+    .gl_navbar ul li {
+        padding: 0 0;
+        height: 14vw;
+        line-height: 14vw;
+        justify-content: center;
+    }
+
+    .gl_navbar {
+        height: 14vw;
+    }
+
+    .gl_navbar ul, li {
+        font-size: 4vw;
+    }
+
+    .gl_navbar ul li a {
+        height: 13vw;
+    }
+
+    .gl_title {
+        padding-top: 8vw;
+    }
+
+    .profile .profile_top span {
+        display: none;
+    }
+
+    .profile_top, .profile .profile_top .college {
+        flex-direction: column;
+    }
+
+    .profile .profile_top .college .college_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile .profile_top .college {
+        background-color: #ffffff;
+    }
+
+    .profile .profile_top .college_box .title {
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    .profile .profile_top .college .college_box {
+        padding: 0;
+        width: 100%;
+        font-family: PingFang-SC-Medium;
+        font-size: 4vw;
+    }
+
+    .profile .profile_center {
+        margin-top: 0;
+        width: 93%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .profile .profile_top {
+        width: 93%;
+        margin: 0px auto;
+    }
+
+    .profile .profile_top, .profile .profile_top .college {
+        height: auto;
+    }
+
+    .profile .profile_center .item strong {
+        margin-right: 10px;
+        font-size: 8vw;
+    }
+
+    .profile .profile_center .item .item_box .sup, .profile .profile_center .item .item_box .sub {
+        font-size: 3vw;
+    }
+
+    .profile .profile_center .item .item_box {
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    .profile .profile_center .item {
+        padding: 4vw 0;
+        width: 50%;
+        display: flex;
+        justify-content: normal;
+    }
+
+    .profile .profile_center .item:nth-child(1), .profile .profile_center .item:nth-child(2) {
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .profile .profile_center .item:nth-child(odd):after {
+        content: "";
+        display: block;
+        margin-left: 6vw;
+        margin-top: 2vw;
+        width: 1px;
+        height: 7vw;
+        background-color: #eeeeee;
+    }
+
+    .profile .profile_bottom {
+        margin-top: 6vw;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        background: url(../img/profile22.jpg) no-repeat top/cover;
+    }
+
+    .profile .profile_bottom .title {
+        margin-bottom: 1vw;
+        margin-top: 8vw;
+        font-size: 6vw;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .profile .profile_bottom .sub_title {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 9vw;
+        display: block;
+        font-size: 4vw;
+        line-height: 6.5vw;
+        color: #777777;
+    }
+
+    .profile .profile_top .college_box .info {
+        display: block;
+        margin-bottom: 4vw;
+        text-align: justify;
+        text-overflow: inherit;
+        line-height: 6.5vw;
+    }
+
+    /* 发展历程 */
+
+    .history_box .history_left {
+        width: 15%;
+        padding-bottom: 2vw;
+    }
+
+    .history_box .history_left .month {
+        font-size: 4vw;
+    }
+
+    .history_box .history_left .year {
+        font-size: 2vw;
+    }
+
+    .history_box .history_main .history_info {
+        padding-bottom: 7vw;
+        font-size: 3.6vw;
+    }
+
+    .history_box .item {
+        min-height: 8vw;
+    }
+
+    .history_box .history_main::before {
+        top: -1vw;
+        left: -1.3vw;
+        width: 3vw;
+        height: 3vw;
+        transform: scale(.5);
+        transform-origin: 0% center;
+        border: solid 1vw #5979bd;
+    }
+
+    .history .item:last-child .history_main {
+        border-left: none;
+    }
+
+    /* 学校荣誉 */
+
+    .history_box .item:last-child .history_main::after {
+        display: none;
+    }
+
+    .mb_honors {
+        margin-top: 13vw;
+    }
+
+    .img_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mb_honors img {
+        margin-bottom: 4vw;
+        width: 48%;
+        height: 29vw;
+    }
+
+    .department {
+        overflow: hidden;
+    }
+
+    .department_bg {
+        background: none;
+    }
+
+    /* 内设机构 */
+
+    .department .content {
+        margin-bottom: 3vw;
+        width: 100%;
+        text-align: justify;
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+
+    .department .department_box {
+        display: block;
+        margin-top: 11vw;
+    }
+
+    .department .department_box .item {
+        margin-bottom: 4vw;
+        width: 100%;
+        height: 46vw;
+    }
+    .department .department_box .item:nth-child(1):before, .department .department_box .item:nth-child(2):before, .department .department_box .item:nth-child(4):before, .department .department_box .item:nth-child(5):before{
+        height: 46vw;
+    }
+    .department .department_box .item::before {
+        height: 46vw;
+    }
+
+    .department .item figure figcaption {
+        font-size: 5vw;
+    }
+
+    /* 学生发展 */
+
+    .hotline .hotline_box {
+        display: block;
+    }
+
+    .hotline .item {
+        display: block;
+        width: 100%;
+        height: 38vw;
+        padding: 0;
+        padding-bottom: 5vw;
+        margin-bottom: 4vw;
+        border: none;
+        border-bottom: solid 1px #eeeeee;
+    }
+
+    .hotline .item .title {
+        white-space: pre-wrap;
+    }
+
+    .hotline .item .title {
+        margin-bottom: 3vw;
+        font-size: 4.5vw;
+        line-height: 6vw;
+        font-weight: bold;
+    }
+
+    .hotline .item span.date {
+        font-size: 3vw;
+    }
+
+    .hotline .item span.date span {
+        font-size: 3vw;
+    }
+
+    .hotline .item .info {
+        font-size: 3.8vw;
+        line-height: 6vw;
+        margin-top: 3vw;
+    }
+
+    .hotline .item .info {
+        margin-bottom: 0;
+    }
+
+    .gl_pages {
+        display: none;
+    }
+
+    .hotline .item:hover {
+        box-shadow: none;
+        border: none;
+        border-bottom: solid 1px #eeeeee;
+    }
+
+    .hotline .item:hover .title {
+        color: #333333;
+    }
+
+    .hotline .item:hover span.more {
+        color: #8b95a0;
+    }
+
+    /* 文章详情 */
+
+    .article .article_nav {
+        display: none;
+    }
+
+    .article .article_title .title {
+        margin-bottom: 3vw;
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+
+    .mb_banner {
+        display: none;
+    }
+
+    .article .article_title {
+        padding: 6% 0;
+    }
+
+    .article .article_main {
+        padding: 6% 0;
+        font-size: 4vw;
+        line-height: 6vw;
+        color: #333333;
+    }
+
+    .article .article_main img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mb_nav {
+        margin-top: 11vw;
+        padding-bottom: 11vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mb_nav img:nth-child(1), .mb_nav img:nth-child(3) {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .mb_nav img:nth-child(2) {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    /* 校企合作 */
+
+    .enterprise_banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width:100%; */
+        height: 50vw!important;
+    }
+
+    .enterprise .enterprise_main {
+        margin-top: 0!important;
+    }
+
+    .enterprise_banner::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50vw;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .enterprise_banner .txt_box {
+        top: 0;
+    }
+
+    .enterprise .profile {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 9vw;
+    }
+
+    .enterprise .profile_box {
+        width: 100%;
+    }
+
+    .enterprise .profile_box .title {
+        display: flex;
+        flex-direction: column;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .enterprise .profile_box span {
+        display: none;
+    }
+
+    .enterprise .profile_box .title .subtitle {
+        font-size: 3vw;
+        color: #333333;
+        text-indent: 0;
+        font-weight: normal;
+    }
+
+    .enterprise .profile_box .content {
+        margin-bottom: 7vw;
+        font-size: 4vw;
+        line-height: 6vw;
+        text-align: justify;
+    }
+
+    .enterprise .profile_box .item, .enterprise .profile_box .item .item_box {
+        font-size: 3vw;
+    }
+
+    .enterprise .profile_box .item strong {
+        font-size: 6vw;
+    }
+
+    .enterprise .profile_banner {
+        margin-top: 9vw;
+        margin-bottom: 5vw;
+        width: 100%;
+    }
+
+    .swiper3 {
+        height: 59vw;
+    }
+
+    .gl_foldTitle {
+        margin-top: 10vw;
+        font-size: 6vw;
+    }
+
+    .train_title {
+        margin-top: -6vw;
+    }
+
+    .gl_foldSubTitle {
+        margin-top: 0.5vw;
+        font-size: 3vw;
+        color: #666666;
+    }
+
+    .cooperation .item {
+        margin-bottom: 3vw;
+        width: 48%;
+        height: 25vw;
+    }
+
+    .train_news .item {
+        margin-bottom: 6vw;
+        width: 100%;
+        height: 72vw;
+        background-color: #ffffff;
+        box-shadow: 0vw 1vw 2vw 0vw rgba(208, 208, 208, 0.32);
+    }
+
+    .enterprise_news .item {
+        margin-bottom: 3vw;
+        width: 48.5%;
+        height: 27vw;
+    }
+
+    .enterprise_news .title {
+        height: 7vw;
+        line-height: 7vw;
+        font-size: 3vw;
+    }
+
+    .train_news .title {
+        height: 6vw;
+        line-height: 6vw;
+    }
+
+    .enterprise .contact .contact_left {
+        display: none;
+    }
+
+    .enterprise .contact .code {
+        display: none;
+    }
+
+    .enterprise .contact_center .info {
+        margin-bottom: 3vw;
+        font-size: 3vw;
+    }
+
+    .enterprise .contact_center .info:last-child {
+        margin-top: 4vw;
+    }
+
+    .enterprise .contact_center .phone {
+        font-size: 8vw;
+    }
+
+    .enterprise .contact_center .phone::after {
+        content: "";
+        display: inline-block;
+        margin-left: 4vw;
+        width: 7vw;
+        height: 7vw;
+        background: url('../img/phone.png') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .enterprise>.contact {
+        padding: 0;
+        height: 55vw;
+    }
+
+    .enterprise .contact_center {
+        margin: 6vw 7vw 0 7vw;
+    }
+
+    .enterprise .enterprise_main {
+        padding: 0;
+    }
+
+    .profile, .history, .honors {
+        padding-bottom: 0;
+    }
+
+    .cooperation .item_box img {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .cooperation, .train_news {
+        margin-top: 7vw;
+    }
+
+    .mb_foldSubTitle {
+        margin-top: -10vw;
+        margin-bottom: 10vw;
+        font-size: 5vw;
+        font-family: Arial-BoldMT;
+        color: #e1e1e1;
+    }
+
+    /* 学生发展 */
+
+    .profile_icon {
+        margin-bottom: 11vw;
+    }
+
+    .profile_icon .item img {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .student .profile>.profile_banner {
+        display: none;
+    }
+
+    .student .hotMajor_box .major, .student .hotMajor_box .hot {
+        display: inline-block;
+        font-size: 6vw;
+    }
+
+    .student .hotMajor_box {
+        display: block;
+    }
+
+    .student .hotMajor_box {
+        text-align: center;
+        border-bottom: none;
+        font-size: 3vw;
+    }
+
+    .train .course .item {
+        margin-bottom: 2vw;
+        width: 49%;
+        height: 52vw;
+        border: none;
+        box-shadow: 0vw 1vw 2vw 0vw rgba(208, 208, 208, 0.32);
+    }
+
+    .student .course .item .img_box {
+        position: relative;
+        color: #ffffff;
+    }
+
+    .student .course .img_box .title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 7vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 4vw;
+        font-weight: normal;
+        line-height: 7vw;
+        text-align: center;
+        color: inherit;
+    }
+
+    .student .course .item>.title {
+        display: none;
+    }
+
+    .student .course .item .info {
+        display: none;
+    }
+
+    .student .course .item .mb_info {
+        margin: 0 auto;
+        width: 41vw;
+        height: 7vw;
+        background-color: #0099ff;
+        border-radius: 1vw;
+        line-height: 7vw;
+        text-align: center;
+    }
+
+    .student .course .item .mb_info a {
+        font-size: 4vw;
+        color: #ffffff;
+    }
+
+    .student .course .item .system {
+        margin: 3vw 0 2vw 0;
+        font-size: 4vw;
+        color: #333333;
+    }
+
+    .student .enterprise_main {
+        background: none;
+    }
+
+    .student .college_title .nav_box {
+        display: block;
+    }
+
+    .student .college_title .college_nav {
+        margin-left: 0;
+        margin-top: 5vw;
+        width: 21vw;
+        height: 7vw;
+        line-height: 7vw;
+        font-size: 3vw;
+    }
+
+    .student .college_title .college_box {
+        justify-content: space-between;
+    }
+
+    .student .college_title>a {
+        display: none;
+    }
+
+    .student .enterCollege {
+        flex-direction: column;
+    }
+
+    .student .enterCollege .enterCollege_left, .student .enterCollege .enterCollege_right {
+        margin-bottom: 3vw;
+        width: 100%;
+    }
+
+    .student .hotMajor_box {
+        padding: 0;
+    }
+
+    .student .enterCollege .left_box {
+        height: 70vw;
+    }
+
+    .student .enterCollege .right_box {
+        height: 34vw;
+    }
+
+    .student .teacher_box {
+        display: none;
+    }
+
+    .swiper4 {
+        width: 100vw;
+        height: 83vw;
+    }
+
+    .student .teacher_item {
+        display: flex;
+    }
+
+    .student .teacher_item .show_teacher img {
+        width: 31vw;
+        height: 61vw;
+    }
+
+    .student .show_info .name span {
+        font-size: 5vw;
+    }
+
+    .student .show_info .title {
+        font-size: 4vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .student .show_info .info {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .student .teacher_item .show_info {
+        width: 56vw;
+        height: 55vw;
+        background-color: #f4f1ec;
+        padding: 6vw 5vw 0 5vw;
+        font-size: 3vw;
+    }
+
+    .swiper-pagination-bullet {
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        transform: scale(.5);
+        transform-origin: 0% center;
+    }
+
+    .p3 .swiper-pagination-bullet-active {
+        background: #fe7316;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0px 1vw;
+    }
+
+    .ph_contact {
+        display: none;
+    }
+
+    .swiper4 {
+        height: 78vw;
+    }
+
+    .banner {
+        width: 100vw;
+    }
+
+    .banner .title {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    .banner .sub_title {
+        font-size: 4vw;
+        color: #fffefe;
+    }
+
+    .p3 .swiper-pagination-bullet-active {
+        background: #fff;
+    }
+
+    .p3 .swiper-pagination-bullet {
+        background: #fff;
+    }
+
+    .about {
+        padding-bottom: 7vw;
+        flex-direction: column-reverse;
+        background: #fff;
+    }
+
+    .about .about_right {
+        width: 100%;
+        background: none;
+    }
+
+    .about_right .about_main {
+        padding: 0;
+    }
+
+    .about_right .about_main .title {
+        font-size: 6vw;
+        margin-top: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    .about_right .about_main .sub_title {
+        margin-bottom: 4vw;
+        font-size: 4vw;
+        color: #333333;
+    }
+
+    .about_right .about_main .underline {
+        margin-bottom: 4vw;
+        width: 25vw;
+        height: .15em;
+        background: #bbc0c7;
+    }
+
+    .about_right .about_main .content {
+        font-size: 4vw;
+        line-height: 7vw;
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+        border-bottom: 1px solid #dddddd;
+        text-align: justify;
+    }
+
+    .num {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .about_main .num .item {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 3vw;
+    }
+
+    .about_main .num .item p {
+        display: flex;
+        font-size: 4vw;
+        color: #999999;
+    }
+
+    .profile_box .num .item p {
+        font-size: 4vw;
+        color: #999999;
+    }
+
+    .num .item span {
+        font-size: 8vw;
+        color: #666666;
+        margin-right: 3vw;
+    }
+
+    .video {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6vw 0;
+        width: 100%;
+        height: 62vw;
+        background: url(../img/about1.png) no-repeat;
+        background-size: 100% 100%;
+        font-size: 2vw;
+        color: #ffffff;
+    }
+
+    .video .video_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video .video_img img {
+        width: 11vw;
+        height: 11vw;
+        margin-bottom: 4vw;
+    }
+
+    .video .mb_video {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .mb_container .more {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6vw;
+    }
+
+    .more .text {
+        width: 40vw;
+        height: 9vw;
+        line-height: 9vw;
+        border-radius: 5vw;
+        background: #425cbb;
+        border: solid 1px #425cbb;
+        color: #fff;
+        font-size: 4vw;
+    }
+
+    .about_right .about_main .more .text {
+        width: 40vw;
+        height: 9vw;
+        line-height: 9vw;
+        border-radius: 5vw;
+        background: #425cbb;
+        border: solid 1px #425cbb;
+        color: #fff;
+        font-size: 4vw;
+    }
+
+    .more .text span::after {
+        width: 5vw;
+        height: 1.5vw;
+        background: url(../img/more1.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .train_more {
+        margin-top: 5vw;
+        ;
+        margin-bottom: 0;
+    }
+
+    .construction_main {
+        padding: 10vw 0 11vw 0;
+    }
+
+    .construction_main .construction_box {
+        padding: 0 4vw;
+        padding-bottom: 6vw;
+    }
+
+    .construction_box .item {
+        position: relative;
+        width: 48%;
+        height: 35vw;
+        margin-bottom: 3vw;
+        border: none;
+    }
+
+    .construction_box .item .img_box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+
+    .construction_box .item .img_box::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        background: black;
+        opacity: .4;
+    }
+
+    .construction_box .item .txt_box {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4.5vw;
+        color: #ffffff;
+        z-index: 15;
+    }
+
+    .construction_box .item .txt_box img {
+        position: relative;
+        margin-bottom: 3vw;
+        z-index: 15;
+    }
+
+    .construction_main .title {
+        margin-bottom: 1vw;
+        color: #333333;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .construction_main .sub_title {
+        color: #333333;
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .construction_main .line {
+        width: 13vw;
+        height: 1vw;
+        background-color: #425cbb;
+        margin: 0px auto;
+        margin-bottom: 9vw;
+    }
+
+    .mb_more {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .train_news .title {
+        white-space: pre-wrap;
+    }
+
+    .about_right .about_main .more .text img {
+        width: 4vw;
+        height: 1vw;
+    }
+
+    .mb_more .text {
+        width: 40vw;
+        height: 9vw;
+        line-height: 9vw;
+        border-radius: 5vw;
+        background: #425cbb;
+        border: solid 1px #425cbb;
+        color: #fff;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .mb_more .text img {
+        width: 4vw;
+        height: 1vw;
+    }
+
+    .news {
+        padding-bottom: 11vw;
+        flex-direction: column;
+        background: none;
+    }
+
+    /* 新闻 */
+
+    .peKb_arrows {
+        display: none!important;
+    }
+
+    #annotation, .container_12, .container_16 {
+        width: 94vw;
+        height: 78vw;
+    }
+
+    .peKenBurns {
+        width: 100%!important;
+        height: 59vw!important;
+    }
+
+    .peKb_slides, .peKb_frame, .peKb_active, .peKb_videooverlay, .peKenBurns .peKb_slides>div {
+        width: 91%!important;
+        height: 59vw!important;
+    }
+
+    .peKenBurns .peKb_slides {
+        padding: 4vw 4vw 8vw 4vw;
+    }
+
+    .peKenBurns .peKb_controls {
+        float: inherit;
+        top: -10vw;
+        margin: 0 auto;
+        margin-top: 0!important;
+        height: auto;
+    }
+
+    .peKenBurns .peKb_slides .peKb_caption {
+        margin: 0;
+        margin-top: 0!important;
+        margin-left: 0!important;
+        left: 4vw;
+        bottom: -14vw;
+    }
+
+    .peKenBurns .peKb_slides .peKb_caption .peKb_holder {
+        margin-left: 0;
+        margin-top: 0!important;
+        width: 91%!important;
+    }
+
+    .peKenBurns .peKb_controls .peKb_holder {
+        margin-top: 0!important;
+        height: 23px!important;
+    }
+
+    .peKb_title {
+        position: absolute;
+        top: 48vw;
+        left: 2vw;
+        width: 91%;
+        height: 9vw;
+        line-height: 9vw;
+        background-color: #000000;
+        border-radius: 3vw;
+        opacity: 0.8;
+        font-size: 2vw;
+        transition: width 1s linear;
+    }
+
+    .peKenBurns .peKb_shadow {
+        bottom: -18vw;
+        width: 100%!important;
+        height: 22vw;
+    }
+
+    .peKenBurns .peKb_controls .peKb_mainPanel {
+        margin-left: 0!important;
+        float: inherit;
+        display: flex;
+        justify-content: center;
+        height: 23px!important;
+    }
+
+    .peKenBurns .peKb_controls .peKb_slideBtns {
+        margin-top: 3vw;
+        margin-bottom: 0;
+    }
+
+    .peKenBurns .peKb_shadow .peKb_left, .peKenBurns .peKb_shadow .peKb_right {
+        /* width: 26vw; */
+        width: 20%;
+        height: 22vw;
+    }
+
+    .peKenBurns .peKb_shadow .peKb_middle {
+        /* width: 40vw!important; */
+        width: 60%!important;
+        height: 22vw;
+    }
+
+    .news .title_box {
+        position: static;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .news .title {
+        font-size: 6vw;
+        font-weight: bold;
+        color: #333333;
+        margin: 8vw 0 2vw 0;
+    }
+
+    .news .title span:first-child {
+        margin: 2vw 0;
+        font-size: 3vw;
+        font-weight: normal;
+    }
+
+    .news .title span {
+        max-width: 100vw;
+    }
+
+    .news .title span:last-child {
+        display: block;
+        margin: 3vw auto;
+        margin-bottom: 4vw;
+        width: 13vw;
+        height: .28em;
+        background-color: #425cbb;
+    }
+
+    /* contact */
+
+    .mb_contact .contact_bg {
+        width: 100vw;
+        height: 69vw!important;
+        background: url(../img/contact1.jpg) no-repeat 50%/cover;
+    }
+
+    .mb_contact .contact_main {
+        margin: 0 auto;
+        margin-top: -30%;
+        width: 93vw;
+        height: auto;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 1px 4px 10px 0px rgb(49 50 50 / 12%);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .mb_contact .contact_main .title {
+        margin: 7vw 0 2vw 0;
+        font-size: 5vw;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .mb_contact .contact_main .subtitle {
+        margin-bottom: 2vw;
+        font-size: 3vw;
+        color: #666666;
+    }
+
+    .mb_contact .contact_main .underline {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1vw;
+        width: 7vw;
+        height: 1vw;
+        background-color: #425cbb;
+    }
+
+    .mb_contact .contact_main .contact_box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mb_contact .contact_box .contact_left img {
+        margin: 0 auto;
+        margin-bottom: 1vw;
+        width: 33vw;
+        height: 33vw;
+    }
+
+    .mb_contact .contact_main .contact_box .contact_left {
+        font-size: 3vw;
+        color: #999999;
+    }
+
+    .mb_contact .contact_main .contact_box .contact_right {
+        display: flex;
+        justify-content: center;
+        margin: 7vw 0 7vw 0;
+        padding-right: 0;
+        font-size: 4vw;
+        line-height: 8vw;
+        color: #666666;
+        text-align: left;
+    }
+
+    .contact_footer {
+        margin-top: 14vw;
+        width: 100vw;
+        height: 65vw;
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact_footer>img {
+        margin-bottom: 5vw;
+        width: 53vw;
+        height: 13vw;
+        opacity: .6;
+    }
+
+    .contact_footer .copy, .contact_footer .copy a {
+        font-size: 3.5vw;
+        color: #999999;
+        line-height: 5vw;
+    }
+
+    .contact_footer>.img_box {
+        margin-top: 7vw;
+    }
+
+    .contact_footer>.img_box img {
+        margin-right: 5vw;
+        width: 12vw;
+        height: 12vw;
+        opacity: .5;
+    }
+
+    .contact_footer>.img_box img:last-child {
+        margin-right: 0;
+    }
+
+    /* 人才培训 */
+
+    .train_banner {
+        width: 100vw;
+        height: 50vw;
+        background: url(../img/train_bg1.jpg) no-repeat bottom/cover!important;
+    }
+
+    .hide_train_more {
+        margin: 5vw auto;
+    }
+
+    .train .train_main {
+        margin-top: 0;
+        padding: 0;
+        padding-bottom: 3vw;
+    }
+
+    .train_banner .txt_box {
+        margin-left: 0;
+    }
+
+    .train_banner .title, .train_banner .mb_banner_title {
+        margin-bottom: 2vw;
+        font-size: 6vw!important;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .train_banner .sub_title {
+        color: #fff;
+    }
+
+    .mb_course .item {
+        position: relative;
+        box-shadow: 0vw 1vw 2vw 0vw rgba(208, 208, 208, 0.32);
+    }
+
+    .mb_course .item .title {
+        position: absolute;
+        margin-top: 0;
+        width: 100%;
+        height: 7vw;
+        line-height: 7vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        font-size: 4vw;
+    }
+
+    .train .course {
+        margin: 6vw 0;
+    }
+
+    .train .course .info {
+        flex-direction: column;
+        line-height: 7vw;
+    }
+
+    .train_news .item:hover .img_box img {
+        transform: none;
+    }
+
+    .train_news .item img {
+        transition: none;
+    }
+
+    .train_news .item:hover .title {
+        height: 13%;
+    }
+
+    .train .course .info span {
+        margin-right: 2vw;
+        font-size: 3vw;
+    }
+
+    .train .course .info {
+        margin-top: 2vw;
+        padding: 0 2vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .train .course .info a {
+        width: 100%;
+        height: 7vw;
+        line-height: 7vw;
+        margin-left: 0;
+        margin-top: 1vw;
+        border-radius: 1vw;
+    }
+
+    .train_news .item img {
+        height: 75%;
+    }
+
+    .train_news .item {
+        margin-bottom: 4vw;
+    }
+
+    .train_news .title {
+        padding: 5%;
+        width: 90%;
+        height: 13%;
+        ;
+        background-color: #fff;
+        font-size: 4vw;
+        color: #333333;
+        opacity: 1;
+        text-align: left;
+        line-height: 5vw;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .overview {
+        height: 163vw;
+        background: #ecf3f9;
+    }
+
+    .overview .overview_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #ecf3f9 url('../img/train4.jpg') no-repeat bottom;
+        background-size: 100% 69vw;
+    }
+
+    .overview .overview_right {
+        width: 82%;
+        text-align: center;
+    }
+
+    .overview .overview_right .title::after {
+        display: block;
+        font-size: 3vw;
+    }
+
+    .overview .overview_right .title {
+        margin-top: 10vw;
+        margin-bottom: 8vw;
+        font-size: 6vw;
+    }
+
+    .overview .overview_right .subtitle {
+        margin-bottom: 6vw;
+        font-size: 6vw;
+    }
+
+    .overview .overview_right .content {
+        margin-bottom: 3vw;
+        width: 100%;
+        font-size: 4vw;
+        line-height: 6vw;
+        text-align: justify;
+    }
+
+    .overview .overview_bottom {
+        width: 100%;
+        height: 55vw;
+    }
+
+    .overview .overview_right .info {
+        margin-top: 5vw;
+        width: 26vw;
+        height: 9vw;
+        font-size: 4vw;
+        line-height: 9vw;
+    }
+
+    .gl_mb_line {
+        margin: 0 auto;
+        margin-bottom: 8vw;
+        width: 13vw;
+        height: 1vw;
+        background-color: #425cbb;
+    }
+
+    .profile .profile_top .college_box .sub_title {
+        margin-bottom: 3vw;
+    }
+
+    .profile .profile_top .college_box .line {
+        margin-bottom: 3vw;
+        width: 7vw;
+        height: 1vw;
+    }
+
+    .gl_navbar ul li:before {
+        height: 4vw;
+    }
+
+    .p7 {
+        bottom: 5vw!important;
+    }
+
+    .p7 .swiper-pagination-bullet-active {
+        background-color: #fe7316;
+    }
+
+    .student .enterCollege .left_box .title, .student .enterCollege .right_box .title {
+        height: 8vw;
+        line-height: 8vw;
+        font-size: 3vw;
+    }
+
+    .train .course .enroll {
+        width: 91vw;
+    }
+
+    .train .course .enroll_box .contact {
+        margin-bottom: 3vw;
+        font-size: 4vw;
+    }
+
+    .train .course .enroll_main {
+        margin-top: 0;
+        font-size: 3vw;
+    }
+
+    .train .course .enroll_main span {
+        margin: 1vw 0 5vw 0;
+        font-size: 7vw;
+    }
+
+    .train .course .enroll_main .enroll_right {
+        font-size: 3vw;
+    }
+
+    .train .course .enroll_main .enroll_left img {
+        width: 29vw;
+        height: 29vw;
+        margin-bottom: 3vw;
+    }
+
+    .train .course .enroll_main a {
+        width: 39vw;
+        height: 11vw;
+        line-height: 11vw;
+        border-radius: 10vw;
+        font-size: 3vw;
+    }
+
+    .mb_num .item {
+        width: 33%;
+    }
+
+    /* 欢迎您 */
+
+    .welcome .welcome_box .title {
+        margin-bottom: 3vw;
+        font-size: 9vw;
+    }
+
+    .welcome .welcome_box .subtitle {
+        margin-bottom: 5vw;
+        font-size: 4vw;
+    }
+
+    .welcome .welcome_box a {
+        margin-bottom: 5vw;
+        padding: 0px 5vw;
+        width: 74vw;
+        height: 16vw;
+        border-radius: 10vw;
+    }
+
+    .welcome .welcome_box a .left {
+        display: flex;
+        align-items: center;
+    }
+
+    .welcome .welcome_box a img:first-child {
+        margin-right: 0;
+        width: 15vw;
+    }
+
+    .welcome .welcome_box a span {
+        font-size: 5vw;
+    }
+
+    .welcome .welcome_box a img:last-child {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .welcome .welcome_box a:nth-last-child(2) {
+        margin-bottom: 10vw;
+    }
+
+    .welcome .welcome_box a.other {
+        width: 38vw;
+        height: 13vw;
+        border-radius: 10vw;
+        line-height: 13vw;
+        font-size: 4vw;
+    }

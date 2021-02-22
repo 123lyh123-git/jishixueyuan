@@ -1,0 +1,853 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!--主要样式表-->
+    <link rel="stylesheet" href="js/pe.kenburns/themes/default/skin.min.css" />
+    <link media="screen and (min-width:1920px)" rel="stylesheet" href="css/style2560.css">
+    <link media="screen and (min-width:1680px) and (max-width:1920px)" rel="stylesheet" href="css/style1920.css">
+    <link media="screen and (min-width:1440px) and (max-width:1680px)" rel="stylesheet" href="css/style1680.css">
+    <link media="screen and (min-width:1280px) and (max-width:1440px)" rel="stylesheet" href="css/style1440.css">
+    <link media="screen and (max-width:1280px)" rel="stylesheet" href="css/mobile.css">
+    <!-- 新闻的缩略图播放 一定要放在head里面 不然不生效 -->
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/pe.kenburns/jquery.pixelentity.kenburnsslider.min.js"></script>
+    <script>
+        $(function ($) {
+            $(".peKenBurns").peKenburnsSlider({
+                externalFont: true
+            })
+        })
+    </script>
+</head>
+
+
+<body>
+    <!-- pc header -->
+        <div class="header">
+            <div class="pc_header">
+                <a href="/" class="logo"></a>
+                <div class="nav">
+                    <ul class="nav_list">
+                        <li> <a href="/">首页</a></li>
+                        <li> <a href="history.html">学校概况</a></li>
+                        <li> <a href="department.html">内设机构</a></li>
+                        <li> <a href="train.html">人才培养</a></li>
+                        <li> <a href="enterprise.html">招生就业</a></li>
+                        <li> <a href="student.html">学生发展</a>
+                            <div class="nav_subitem">
+                                <a href="hotline.html">学生热线</a>
+                                <a href="#">共青团之家</a>
+                                <a href="#">心灵之窗</a>
+                                <a href="#">继续教育</a>
+                            </div>
+                        </li>
+                        <li> <a href="">社会服务</a></li>
+                        <li> <a href="">党群组织</a></li>
+
+                        <li> <a href="">家校之窗</a></li>
+                    </ul>
+                    <span class="search"></span>
+                    <span class="line"></span>
+                    <a href="#" class="en">ENGLISH</a>
+                </div>
+
+            </div>
+            <div class="search_slide">
+                <input type="text" placeholder="请输入关键词进行搜索">
+                <img src="img/close.png" class="close" alt="">
+            </div>
+        </div>
+    <!-- mobile header -->
+    <div class="mobile_header">
+        <a href="#"><img src="img/logo1.png" class="mb_logo" alt=""></a>
+        <img class="show-btn" src="img/menu.png" alt="" />
+        <div class="mb_menu">
+            <div class="close_box">
+                <div class="close-btn">
+                    <hr />
+                    <hr />
+                </div>
+            </div>
+            <div class="mb_search">
+                <input type="text" placeholder="请输入关键词进行搜索">
+            </div>
+            <ul class="list_box">
+                <li>
+                    <a class="title">首页<span></span></a>
+                </li>
+                <li>
+                    <a class="title">学校概况 <span></span></a>
+                </li>
+                <li>
+                    <a class="title">内设机构<span></span></a>
+                </li>
+                <li>
+                    <a class="title">人才培养<span></span></a>
+                </li>
+                <li>
+                    <a class="title">招生就业<span></span></a>
+                </li>
+                <li>
+                    <a class="title">学生发展<span class="arrow"></span></a>
+                    <ul class="sub_list">
+                        <a href="hotline.html">学生热线</a>
+                        <a href="#">共青团之家</a>
+                        <a href="#">心灵之窗</a>
+                        <a href="#">继续教育</a>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title">社会服务<span></span></a>
+                </li>
+                <li>
+                    <a class="title">党群组织<span></span></a>
+                </li>
+                <li>
+                    <a class="title">学校之窗<span></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- pc right Menu -->
+    <div id="rightMenu"  class="white">
+        <div class="menu">
+            <div class="menu-item active">
+                <label class="title">首页</label>
+                <div class="icon" data-index="0">
+                    <p class="dot"></p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <label class="title">关于我们</label>
+                <div class="icon" data-index="1">
+                    <p class="dot"></p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <label class="title">专业建设</label>
+                <div class="icon" data-index="2">
+                    <p class="dot"></p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <label class="title">资讯中心</label>
+                <div class="icon" data-index="3">
+                    <p class="dot"></p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <label class="title">联系我们</label>
+                <div class="icon" data-index="4">
+                    <p class="dot"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="mask" hidden></div>
+    <!-- pc Index -->
+    <div class="swiper-container swiper1 swiper-no-swiping pc_content">
+        <div class="swiper-wrapper">
+            <!-- banner -->
+            <div class="swiper-slide">
+                <div class="swiper-container swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url(img/banner1.jpg) no-repeat 50%/cover;">
+                            <div class="banner">
+                                <p class="title">没有一流的技工，就没有一流的产品</p>
+                                <p class="sub_title">—— 胡锦涛 —— </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background: url(img/banner2.jpg) no-repeat 50%/cover;">
+                            <div class="banner">
+                                <p class="title">以立德树人为根本，服务经济建设，服务就业创业</p>
+                                <p class="sub_title">造就一流教师队伍，培育一流技能人才，创建一流技师学院</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background: url(img/banner.jpg) no-repeat 50%/cover;">
+
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination p2"></div>
+                    <!-- Add Arrows -->
+                    <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+                </div>
+            </div>
+            <!-- about us -->
+            <div class="swiper-slide">
+                <div class="about">
+                    <div class="about_left ani" swiper-animate-effect="slideInLeft">
+                        <div data-method="setTop" class="video">
+                            <img src="img/video.png" alt=""> 观看学院宣传片
+                        </div>
+                    </div>
+                    <div class="about_right">
+                        <div class="about_main">
+                            <p class="title ani" swiper-animate-effect="lightSpeedIn">关于我们</p>
+                            <p class="sub_title ani" swiper-animate-effect="lightSpeedIn">学校是珠海市唯一一所公办技师学院</p>
+                            <span class="underline ani" swiper-animate-effect="lightSpeedIn"></span>
+                            <p class="content ani" swiper-animate-effect="lightSpeedIn">
+                                珠海市技师学院创办于1980年，前身是珠海市工业技工学校。学校是珠海市唯一一所公办技师学院，是国家级重点技工院校、人力资源和社会保障部首批一体化课程改革试点单位、国家职业教育改革发展示范学校、国家级高技能人才培训基地、广东省高水平技师学院建设学校、广东省高技能人才培养示范基地、广东技工院校“校企双制”示范创建院校。学校是国家最高领导人全国唯一视察过的技工院校，2009年12月21日，时任中共中央总书记、国家主席、中央军委主席胡锦涛视察学校并作出“没有一流的技工，就没有一流的产品”的指示。
+                            </p>
+                            <div class="history numCount ani" swiper-animate-effect="lightSpeedIn">
+                                <div class="item">
+                                    创办于
+                                    <p><span class="numCX" data-startVal="0" data-endVal="1980" data-speed="4"
+                                            data-decimals="0" id="mumC1">0</span>年</p>
+                                </div>
+                                <div class="item">
+                                    总占地面积
+                                    <p><span class="numCX" data-startVal="0" data-endVal="301" data-speed="4"
+                                            data-decimals="0" id="mumC2">0</span>亩</p>
+                                </div>
+                                <div class="item">
+                                    全日制在校学生
+                                    <p><span class="numCX" data-startVal="0" data-endVal="5600" data-speed="4"
+                                            data-decimals="0" id="mumC3">0</span>人</p>
+                                </div>
+                            </div>
+                            <div class="pc_more ani" swiper-animate-effect="lightSpeedIn">
+                                <a href="#" class="text">
+                                    <span>查看更多</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- construction -->
+            <div class="swiper-slide">
+                <div class="construction">
+                    <div class="container1374 construction_main">
+                        <p class="title">专业建设</p>
+                        <p class="sub_title">Specialty construction</p>
+                        <div class="construction_box">
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
+                                <div class="img_box">
+                                    <img src="img/construction1.jpg" alt="">
+                                </div>
+                                <p class="title">智能制造系</p>
+                            </div>
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s">
+                                <div class="img_box">
+                                    <img src="img/construction2.jpg" alt="">
+                                </div>
+                                <p class="title">信息技术系</p>
+                            </div>
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s">
+                                <div class="img_box">
+                                    <img src="img/construction3.jpg" alt="">
+                                </div>
+                                <p class="title">智能电子系</p>
+                            </div>
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.4s">
+                                <div class="img_box">
+                                    <img src="img/construction4.jpg" alt="">
+                                </div>
+                                <p class="title">智能控制系</p>
+                            </div>
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.6s">
+                                <div class="img_box">
+                                    <img src="img/construction5.jpg" alt="">
+                                </div>
+                                <p class="title">现代服务系</p>
+                            </div>
+                            <div class="item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.8s">
+                                <div class="img_box">
+                                    <img src="img/construction6.jpg" alt="">
+                                </div>
+                                <p class="title">财经商贸系</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- news -->
+            <div class="swiper-slide">
+                <div class="news">
+                    <div class="container1374">
+                        <div class="title_box ani" swiper-animate-effect="fadeInUp">
+                            <p class="title">
+                                学校要问
+                                <span>实时更新学院最新动态，了解学院文化，了解学院人</span>
+                            </p>
+                        </div>
+                        <!-- swipe放大效果的焦点图代码 -->
+                        <div id="annotation" style="padding-left: 160px;">
+                            <div id="wrapper" class="container_16">
+                                <!--start peKenBurns slider-->
+                                <div class="peKenBurns peNoJs" data-autopause="image" data-thumb="enabled"
+                                    data-mode="kb" data-controls="always" data-shadow="enabled" data-logo="enabled">
+                                    <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                        <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                                alt="17sucai" /></a>
+
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+                                    </div>
+                                    <div data-delay="5" data-thumb="img/news5.jpg">
+                                        <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                                data-src="img/news5.jpg" alt="17sucai" /></a>
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+                                        <!-- <h1>A KICK-ASS JQUERY PLUGIN WITH KEN BURNS &amp; 2-WAY SWIPE TRANSITIONS</h1> -->
+                                    </div>
+                                    <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                        <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                                alt="17sucai" /></a>
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+
+                                    </div>
+                                    <div data-delay="5" data-thumb="img/news5.jpg">
+
+                                        <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                                data-src="img/news5.jpg" alt="17sucai" /></a>
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+                                        <!-- <h1>A KICK-ASS JQUERY PLUGIN WITH KEN BURNS &amp; 2-WAY SWIPE TRANSITIONS</h1> -->
+                                    </div>
+                                    <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                        <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                                alt="17sucai" /></a>
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+
+                                    </div>
+                                    <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                        <a class="video hd autoplay loop skiptonext" href="http://www.17sucai.com/"
+                                            style="z-index: 1;"><img src="img/news5.jpg" data-src="img/news5.jpg"
+                                                alt="17sucai" /></a>
+                                        <div class="peKb_title">
+                                            时任国家最高领导人胡锦涛同志视察我校
+                                        </div>
+                                        <!-- <h1>A KICK-ASS JQUERY PLUGIN WITH KEN BURNS &amp; 2-WAY SWIPE TRANSITIONS</h1> -->
+                                    </div>
+                                </div>
+                                <!--end peKenBurns slider -->
+                            </div>
+                            <!--end wrapper-->
+                            <div class="pc_more ani" swiper-animate-effect="fadeInUp"
+                                style="display: flex;justify-content: center;">
+                                <a href="#" class="text"><span>查看更多</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact us -->
+            <div class="swiper-slide">
+                <div class="contact">
+                    <div class="contact_bg"></div>
+                    <div class="contact_main">
+                        <p class="title">联系方式</p>
+                        <p class="subtitle">欢迎您随时与我们取得联系</p>
+                        <span class="underline"></span>
+                        <div class="contact_box">
+                            <div class="contact_left ani" swiper-animate-effect="slideInLeft">
+                                <img src="img/QR_code.jpg" alt=""> 技师学院官方公众号
+                            </div>
+                            <div class="contact_right ani" swiper-animate-effect="slideInRight">
+                                吉大校区地址：珠海市香洲区吉大白莲路42号<br /> 金湾校区地址：珠海市金湾区红旗镇金铭西路98号
+                                <br /> 招生处咨询电话：0756-3808379
+                                <br /> 培训处咨询电话：0756-3808171
+                                <br /> 学生处咨询电话：0756-3808052
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_bottom ani">
+                        <p class="link"><span>友情链接</span></p>
+                        <a href="#">技工院校高技能人才培养联盟 </a>
+                        <a href="#">中国职工教育和职业培训协会 </a>
+                        <a href="#">企业招聘信息登记 </a>
+                        <a href="#"> 广东省技工教育在线 </a>
+                        <a href="#">珠海市教育信息网 </a>
+                        <a href="#">珠海市招生考试网 </a>
+                        <a href="#">广东职业技术鉴定指导中心珠海市人力资源和社会保障局</a>
+                        <a href="#">中国职业教育信息资源网 </a>
+                        <a href="#">广东省教育厅</a>
+                        <a href="#">广东职业技术教研室 </a>
+                    </div>
+                    <div class="contact_footer">
+                        <div class="container1374 container1120 footer">
+                            <p class="copy"> &copy;版权所有：2020 珠海市技师学院<img src="img/beian.png"> 粤公网安备 44049002000207号 |
+                                网站ICP备案号：
+                                <a href="#">粤ICP备13072393号</a> | 网站建设：<a href="#">超凡网络</a>  
+                            </p>
+                            <div class="img_box">
+                                <img src="img/icon1.png" alt="">
+                                <img src="img/icon2.png" alt="">
+                                <img src="img/icon3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile Index -->
+    <div class="mb_content">
+        <!-- banner -->
+        <div class="swiper-container swiper4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: url(img/banner1.jpg) no-repeat 50%/cover;">
+                    <div class="banner">
+                        <p class="title">没有一流的技工，就没有一流的产品</p>
+                        <p class="sub_title">—— 胡锦涛 —— </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(img/banner2.jpg) no-repeat 50%/cover;">
+
+                </div>
+                <div class="swiper-slide" style="background: url(img/banner.jpg) no-repeat 50%/cover;">
+
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination p3" style=" bottom: 6vw;"></div>
+            <!-- Add Arrows -->
+        </div>
+        <!-- about-us -->
+        <div class="mb_container">
+            <!-- about us -->
+            <div class="about">
+                <div class="about_right">
+                    <div class="about_main">
+                        <p class="title">学校概况</p>
+                        <p class="sub_title">学校是珠海市唯一一所公办技师学院</p>
+                        <span class="underline"></span>
+                        <p class="content">
+                            珠海市技师学院创办于1980年，前身是珠海市工业技工学校。学校是珠海市唯一一所公办技师学院，是国家级重点技工院校、人力资源和社会保障部首批一体化课程改革试点单位、国家职业教育改革发展示范学校、国家级高技能人才培训基地、广东省高水平技师学院建设学校、广东省高技能人才培养示范基地、广东技工院校“校企双制”示范创建院校。学校是国家最高领导人全国唯一视察过的技工院校，2009年12月21日，时任中共中央总书记、国家主席、中央军委主席胡锦涛视察学校并作出“没有一流的技工，就没有一流的产品”的指示。
+                        </p>
+                        <div class="num">
+                            <div class="item">
+                                <p><span>1980</span>年
+                                </p>
+                                <p>创办于</p>
+                            </div>
+                            <div class="item">
+                                <p><span>301</span>亩
+                                </p>
+                                <p>总占地面积</p>
+                            </div>
+                            <div class="item">
+                                <p><span>5600</span>人
+                                </p>
+                                <p>全日制在校学生</p>
+                            </div>
+                            <div class="item">
+                                <p><span>173995</span>平方米
+                                </p>
+                                <p>总占地面积</p>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video_img">
+                                <img src="img/video.png" alt="">
+                                观看学院宣传片
+                            </div>
+                            <video class="mb_video" src="https://xinawa.oss-cn-shenzhen.aliyuncs.com/xuanchuanpian.mp4"
+                                controls autoplay="autoplay" style="width: 100%;height: 62vw;"> 您的浏览器不支持 video
+                                标签。</video>
+                        </div>
+                        <div class="mb_more">
+                            <a href="#" class="text">查看更多 <img src="img/more1.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- construction -->
+        <div class="construction">
+            <div class="container1374 container1120 construction_main">
+                <p class="title">专业建设</p>
+                <p class="sub_title">Specialty construction</p>
+                <p class="line"></p>
+                <div class="construction_box">
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction1.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments1.png" style="width: 9vw;height: 10vw;" />
+                            智能制造系
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction2.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments2.png" style="width: 11vw;height: 9vw;" />
+                            信息技术系
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction3.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments3.png" style="width: 10vw;height: 10vw;" />
+                            智能电子系
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction4.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments4.png" style="width: 9vw;height: 9vw;" />
+                            智能控制系
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction5.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments5.png" style="width: 8vw;height: 8vw;" />
+                            现代服务系
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="img/construction6.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/departments6.png" style="width: 7vw;height: 8vw;" />
+                            财经商贸系
+                        </div>
+                    </div>
+                </div>
+                <div class="mb_more">
+                    <a href="#" class="text">查看更多 <img src="img/more1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- news -->
+        <div class="mb_container">
+            <div class="news">
+                <div class="title_box">
+                    <p class="title">
+                        学校要问
+                        <span>实时更新学院最新动态，了解学院文化，了解学院人</span>
+                        <span class="line"></span>
+                    </p>
+                </div>
+
+                <!-- swipe放大效果的焦点图代码 -->
+                <div id="annotation">
+                    <div id="wrapper" class="container_16">
+                        <!--start peKenBurns slider-->
+                        <div class="peKenBurns peNoJs" data-autopause="image" data-thumb="enabled" data-mode="kb"
+                            data-controls="always" data-shadow="enabled" data-logo="enabled">
+                            <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        alt="17sucai" /></a>
+
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                            <div data-delay="5" data-thumb="img/thumbs/kb_01.jpg">
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        data-src="img/kb_01.jpg" alt="17sucai" /></a>
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                            <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        alt="17sucai" /></a>
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                            <div data-delay="5" data-thumb="img/news5.jpg">
+
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        data-src="img/news5.jpg" alt="17sucai" /></a>
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                            <div class="peKb_active" data-delay="5" data-thumb="img/news5.jpg">
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        alt="17sucai" /></a>
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                            <div data-delay="5" data-thumb="img/news5.jpg">
+
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/news5.jpg"
+                                        data-src="img/news5.jpg" alt="17sucai" /></a>
+                                <div class="peKb_title">
+                                    时任国家最高领导人胡锦涛同志视察我校
+                                </div>
+                            </div>
+                        </div>
+                        <!--end peKenBurns slider -->
+                    </div>
+                    <!--end wrapper-->
+
+                </div>
+                <div class="mb_more">
+                    <a href="#" class="text">查看更多 <img src="img/more1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- contact us -->
+        <div class="mb_contact">
+            <div class="contact_bg"></div>
+            <div class="contact_main">
+                <p class="title">联系方式</p>
+                <p class="subtitle">欢迎您随时与我们取得联系</p>
+                <span class="underline"></span>
+                <div class="contact_box">
+                    <div class="contact_left">
+                        <img src="img/QR_code.jpg" alt=""> 技师学院官方公众号
+                    </div>
+                    <div class="contact_right">
+                        吉大校区：珠海市香洲区吉大白莲路42号<br /> 金湾校区：珠海市金湾区红旗镇金铭西路98号
+                        <br /> 招生处咨询电话：0756-3808379
+                        <br /> 培训处咨询电话：0756-3808171
+                        <br /> 学生处咨询电话：0756-3808052
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="contact_footer">
+            <img src="img/logo.png" alt="">
+            <p class="copy"> &copy;版权所有：2020 珠海市技师学院</p>
+            <p class="copy"><a href="#">粤公网安备 44049002000207号</a> | <a href="#"></a>粤ICP备13072393</p>
+            <div class="img_box">
+                <img src="img/icon1.png" alt="">
+                <img src="img/icon2.png" alt="">
+                <img src="img/icon3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 首页js -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/html5media.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="layui/layui.js"></script>
+    <script src="js/count.js"></script>
+    <script src="js/comm.js"></script>
+    <script>
+        new WOW().init();
+        // Initialize Swiper
+        var swiper1 = new Swiper(".swiper1", {
+            pagination: ".p1",
+            direction: "vertical",
+            slidesPerView: 1,
+            paginationClickable: true,
+            observer: true,//修改swiper自己或子元素时，自动初始化swiper
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+            speed: 400,
+            mousewheelControl: true,
+            onInit: function (swiper) {
+                //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+                changeIndex(swiper.realIndex + 1);
+                $('#rightMenu .menu .menu-item .icon').click(function () {
+                    swiper1.slideTo($(this).attr('data-index'))
+                })
+
+            },
+            onSlideChangeStart: function (swiper) {
+                changeIndex(swiper.realIndex + 1)
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            },
+        });
+        var swiper2 = new Swiper(".swiper2", {
+            pagination: ".p2",
+            nextButton: ".swiper-button-next",
+            prevButton: ".swiper-button-prev",
+            observer: true,//修改swiper自己或子元素时，自动初始化swiper
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+            paginationClickable: true,
+            spaceBetween: 0, //坑，控制着margin-right:0px;
+            centeredSlides: true,
+            autoplay: 3000,
+            autoplayDisableOnInteraction: false
+        });
+        var swiper4 = new Swiper(".swiper4", {
+            pagination: ".p3",
+            nextButton: ".swiper-button-next",
+            prevButton: ".swiper-button-prev",
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 3000,
+            autoplayDisableOnInteraction: false
+        });
+        // 右侧改变的索引 头部变色
+        function changeIndex(_index) {
+            $('#rightMenu .menu-item').removeClass('active')
+            $('#rightMenu .menu-item:eq(' + (_index - 1) + ')').addClass('active')
+            if (_index == 1) {
+                $(".pc_header").css({
+                    'background': 'transparent',
+                    'borderBottom': '1px solid rgba(255,255,255,.3)',
+                    'box-shadow': 'none'
+                }); //背景
+                $(".pc_header .logo").css('background', 'url(../__PUBLIC__/img/logo.png) no-repeat'); //logo
+                $(".pc_header .nav .nav_list li a").css('color', '#fff'); //字体颜色
+                $(".pc_header .nav .search").css('background', 'url(../__PUBLIC__/img/search.png) no-repeat'); //搜索图片
+                $(".pc_header .nav .en").css('color', '#fff'); //en字体颜色
+                $(".pc_header .nav").mouseover(function () {
+                    $(".nav_subitem").css('transition','all 0.5s linear');
+                    $(".pc_header").css({
+                        'background': '#ffffff',
+                        'borderBottom': 'none',
+                        'box-shadow': '1px 3px 6px 0px rgba(0, 0, 0, 0.05)'
+                    }); //背景
+                    $(".pc_header .logo").css('background', 'url(../__PUBLIC__/img/logo1.png) no-repeat'); //logo
+                    $(".pc_header .nav .nav_list li a").css('color', '#333333'); //字体颜色
+                    $(".pc_header .nav .search").css('background', 'url(../__PUBLIC__/img/search1.png) no-repeat'); //搜索图片
+                    $(".pc_header .nav .en").css('color', '#666666'); //en字体颜色
+                }).mouseout(function () {
+                    $(".nav_subitem").css('transition','all 0.1s linear');
+                    $(".pc_header").css({
+                        'background': 'transparent',
+                        'borderBottom': '1px solid rgba(255,255,255,.3)',
+                        'box-shadow': 'none'
+                    }); //背景
+                    $(".pc_header .logo").css('background', 'url(../__PUBLIC__/img/logo.png) no-repeat'); //logo
+                    $(".pc_header .nav .nav_list li a").css('color', '#fff'); //字体颜色
+                    $(".pc_header .nav .search").css('background', 'url(../__PUBLIC__/img/search.png) no-repeat'); //搜索图片
+                    $(".pc_header .nav .en").css('color', '#fff'); //en字体颜色
+                })
+            } else {
+                $(".pc_header").css({
+                    'background': '#ffffff',
+                    'borderBottom': 'none',
+                    'box-shadow': '1px 3px 6px 0px rgba(0, 0, 0, 0.05)'
+                }); //背景
+                $(".pc_header .logo").css('background', 'url(../__PUBLIC__/img/logo1.png) no-repeat'); //logo
+                $(".pc_header .nav .nav_list li a").css('color', '#333333'); //字体颜色
+                $(".pc_header .nav .search").css('background', 'url(../__PUBLIC__/img/search1.png) no-repeat'); //搜索图片
+                $(".pc_header .nav .en").css('color', '#666666'); //en字体颜色
+                $(".pc_header .nav").hover(function () {
+                    $(".pc_header").css({
+                        'background': '#ffffff',
+                        'borderBottom': 'none',
+                        'box-shadow': '1px 3px 6px 0px rgba(0, 0, 0, 0.05)'
+                    }); //背景
+                    $(".pc_header .logo").css('background', 'url(../__PUBLIC__/img/logo1.png) no-repeat'); //logo
+                    $(".pc_header .nav .nav_list li a").css('color', '#333333'); //字体颜色
+                    $(".pc_header .nav .search").css('background', 'url(../__PUBLIC__/img/search1.png) no-repeat'); //搜索图片
+                    $(".pc_header .nav .en").css('color', '#666666'); //en字体颜色
+                })
+            }
+        }
+        // 计数器
+        var countCXArr = [];
+        var countCX = function () {
+            $('.numCount').each(function (i, dom) {
+                var id, decimals, startVal, endVal, duration;
+                $(dom).find('.numCX').each(function () {
+                    id = $(this).attr('id');
+                    decimals = $(this).attr('data-decimals'),
+                        startVal = $(this).attr('data-startVal'),
+                        endVal = $(this).attr('data-endVal'),
+                        duration = $(this).attr('data-speed');
+                    new CountUp(id, startVal, endVal, decimals, duration, {
+                        useEasing: true, //效果
+                        separator: '' //数字分隔符
+                    }).start(); // target：目标元素id, startVal：你想要开始的值, endVal：你想要到达的值, decimals：小数位数，默认值为0, duration：动画持续时间为秒，默认值为2, options：选项的可选对象
+                    countCXArr[i] = true;
+                })
+            })
+        }
+        countCX();
+        // 宣传片
+        layui.use("layer", function () {
+            //独立版的layer无需执行这一句
+            var $ = layui.jquery,
+                layer = layui.layer; //独立版的layer无需执行这一句
+
+            //触发事件
+            var active = {
+                setTop: function () {
+                    var that = this;
+                    //多窗口模式，层叠置顶
+                    layer.open({
+                        type: 1, //此处以iframe举例
+                        title: "视频播放",
+                        area: [width + "px", height + "px"],
+                        shade: 0,
+                        maxmin: true,
+                        content: '<video id="video" src="https://xinawa.oss-cn-shenzhen.aliyuncs.com/xuanchuanpian.mp4" width="' + width + '" height="' + (height - 46) + '" controls preload autoplay="autoplay">您的浏览器不支持 video 标签。</video>',
+                        yes: function () {
+                            $(that).click();
+                        },
+                        btn2: function () {
+                            layer.closeAll();
+                        },
+                        zIndex: layer.zIndex, //重点1
+                        success: function (layero) {
+                            layer.setTop(layero); //重点2
+                        },
+                    });
+                },
+            };
+
+            $(".video").on("click", function () {
+                var othis = $(this),
+                    method = othis.data("method");
+                active[method] ? active[method].call(this, othis) : "";
+            });
+        });
+        // 改变宣传片的宽高
+        var width = 0,
+            height = 0;
+        function changeVideoWidthHeight() {
+            if ($(document.body).width() <= 1440 && $(document.body).width() >= 1200) {
+                width = 944;
+                height = 628;
+            } else if ($(document.body).width() <= 1680 && $(document.body).width() >= 1440) {
+                width = 1023;
+                height = 714;
+            } else if ($(document.body).width() <= 1920 && $(document.body).width() >= 1680) {
+                width = 1195;
+                height = 778;
+            } else {
+                width = 1213;
+                height = 958;
+            }
+        }
+        changeVideoWidthHeight();
+        $(window).resize(function () {
+            changeVideoWidthHeight();
+        });
+    </script>
+</body>
+
+</html>

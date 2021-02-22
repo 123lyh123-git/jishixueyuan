@@ -1,0 +1,111 @@
+ /* 适应pc屏幕 小于1440 大于1024 */
+
+ .container1311 {
+     margin: 0px auto;
+     width: 1311px;
+     font-size: 16px;
+ }
+
+ .container1374 {
+     margin: 0px auto;
+     width: 1374px;
+     font-size: 16px;
+ }
+
+ /* banner */
+
+ .banner .title {
+     font-size: 36px;
+ }
+
+ .banner .sub_title {
+     font-size: 24px;
+ }
+
+ /* about */
+
+ .about_right .about_main {
+     padding: 16% 16% 2% 8%;
+ }
+
+ /* news */
+
+ .news_img .img_box {
+     height: 400px;
+ }
+
+ .news_left .news_img .news_info {
+     top: 75%;
+ }
+
+ .news_main .news_right .item {
+     padding: 25px;
+     width: 37%;
+ }
+
+ .news_main .news_right .item .time {
+     margin-bottom: 4px;
+ }
+
+ .news_main .news_right .item .title {
+     margin-bottom: 8px;
+ }
+
+ .news_main .news_right .item .detail {
+     margin-bottom: 8px;
+ }
+
+ .news .title span {
+     max-width: 250px;
+ }
+
+ /* contact */
+
+ .contact .contact_bottom {
+     bottom: 14%;
+ }
+
+ /* construction */
+
+ .construction {
+     padding-top: 40px;
+ }
+
+ .construction_box .item {
+     width: 31%;
+ }
+
+ /* 学院概况 */
+
+ .enterprise .profile_box .content {
+     margin-bottom: 38px;
+ }
+
+ .enterprise .contact_center {
+     margin-left: 6%;
+     margin-right: 8%;
+ }
+
+ /* 学生发展 */
+
+ .student .enterprise_main .profile_box .content {
+     margin-bottom: 20px;
+ }
+
+ .student .enterprise_main .profile_box .content {
+     line-height: 26px;
+ }
+
+ .student .teacher_box .teacher_item {
+     width: 42%;
+ }
+
+ .student .teacher_box .show_info {
+     height: 399px;
+     padding: 15px 15px 0 15px;
+ }
+
+ .student .show_info .title {
+     margin-top: 12px;
+     margin-bottom: 12px;
+ }

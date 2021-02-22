@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'cicons';
+	src: url("../fonts/cicons/cicons.eot");
+	src: url("../fonts/cicons/cicons.eot?#iefix") format("embedded-opentype"), url("../fonts/cicons/cicons.woff") format("woff"), url("../fonts/cicons/cicons.ttf") format("truetype"), url("../fonts/cicons/cicons.svg#cicons") format("svg");
+}
+body,div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    border: 0;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+body,html{
+    font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei";
+    font-size: 16px;
+}
+a{
+    color: #424242;
+    text-decoration: none;
+    cursor: pointer;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:before,.clearfix:after{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after{
+    clear: both;
+}

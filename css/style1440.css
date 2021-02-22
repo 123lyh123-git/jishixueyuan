@@ -1,0 +1,201 @@
+/* 适应屏幕 ipad pro 1024 */
+
+.container1311 {
+    margin: 0px auto;
+    width: 1100px;
+    font-size: 16px;
+}
+.container1374 {
+    margin: 0px auto;
+    width: 1100px;
+    font-size: 16px;
+}
+.container1120 {
+    margin: 0px auto;
+    width: 1120px;
+    font-size: 14px;
+}
+
+.pc_header .nav .nav_list li {
+    margin-right: 25px;
+}
+
+/* banner */
+
+.banner .title {
+    font-size: 28px;
+}
+
+.banner .sub_title {
+    font-size: 22px;
+}
+
+/* about us */
+
+.about_right .about_main {
+    padding: 16% 15% 2% 8%;
+}
+
+.about_right .about_main .content {
+    margin-bottom: 38px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about_right .about_main .history {
+    margin-bottom: 50px;
+}
+
+/* construction */
+
+.construction {
+    padding-top: 40px;
+}
+
+.construction_main .sub_title {
+    margin-bottom: 20px;
+}
+
+.construction_box .item {
+    margin-bottom: 25px;
+}
+
+/* news */
+
+.news_img .img_box {
+    height: 360px;
+}
+
+.news_left .news_img .news_info {
+    top: 75%;
+}
+
+.news_main .news_right .item {
+    padding: 18px;
+    width: 37%;
+}
+
+.news_main .news_right .item .time {
+    margin-bottom: 4px;
+}
+
+.news_main .news_right .item .title {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.news_main .news_right .item .detail {
+    margin-bottom: 6px;
+}
+
+.news .title span {
+    max-width: 200px;
+}
+
+/* contact */
+
+.contact .contact_main {
+    top: 40%;
+}
+
+/* 学院概况 */
+
+.enterprise .profile_box .content {
+    margin-bottom: 32px;
+}
+
+.enterprise .contact_center {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/* 学生发展 */
+
+.student .teacher_box .teacher_item {
+    width: 24%;
+}
+
+.student .enterprise_main .profile_box .title {
+    margin-bottom: 15px;
+}
+
+.student .enterprise_main .profile_box .content {
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.student .teacher_box .teacher_item {
+    position: relative;
+    flex-direction: column;
+    height: 414px;
+}
+
+.student .teacher_box .show_teacher {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 22;
+}
+
+.student .teacher_box .show_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 82%;
+    z-index: 18;
+    height: 399px;
+}
+
+.student .teacher_box .show_info {
+    padding: 15px 15px 0 15px;
+}
+
+.student .show_info .title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.student .show_info .info {
+    line-height: 28px;
+}
+
+.student .enterCollege .right_box:nth-child(1), .student .enterCollege .right_box:nth-child(2) {
+    margin-bottom: 4%;
+}
+
+.student .enterCollege .right_box:nth-child(3), .student .enterCollege .right_box:nth-child(4) {
+    margin-bottom: 0;
+}
+.train_contact p{
+    font-size: 14px;
+}
+.profile .profile_top .college .college_box{
+    padding:2%;
+}
+.profile .profile_bottom{
+    padding: 5% 0 0 2%;
+}
+.overview .overview_right .title{
+    margin-top: 58px;
+}
+.overview .overview_right .subtitle{
+    margin-bottom: 30px;
+}
+.overview .overview_right .info{
+    margin-top: 30px;
+}
+.department .department_box .item,
+.department .department_box .item::before{
+    height: 285px;
+}
+.department .content{
+    font-size: 14px;
+    line-height: 26px;
+}
+.department .department_box{
+    margin-top: 35px;
+}
+
+.about_right .history .item{
+    padding: 0px 30px;
+}

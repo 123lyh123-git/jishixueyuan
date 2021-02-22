@@ -1,0 +1,32 @@
+
+      .container1311 {
+          margin: 0px auto;
+          width: 1311px;
+          font-size: 16px;
+      }
+
+      .container1374 {
+          margin: 0px auto;
+          width: 1374px;
+          font-size: 16px;
+      }
+
+      /* banner */
+
+      .banner .title {
+          font-size: 42px;
+      }
+
+      .banner .sub_title {
+          font-size: 24px;
+      }
+
+      /* about us */
+
+      .about_right .about_main {
+          padding: 25% 26% 10% 10%;
+      }
+
+      .pc_header{
+          padding: 0 49px 0 85px;
+      }
